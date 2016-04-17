@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../CSS/Cossieplay.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->    
+</head>
+
+<body>
+
+<div id="Logo_div">
+ <img id="logoofcossie" alt="Cossie" src="../Image/logo of cossie.png">
+   <h1 id="Logo"><em>play</em></h1>
+<form id="search_bar">
+ <input type="text" name="input" style="border:1px solid; border-style:inset">
+ <input type="button" value="search">
+</form>
+</div>
+<div>
+<ul id="Nav_bar">
+<li><a class="Nav_link" href="../index.html">About Cosplay</a></li>
+<li><a class="Nav_link" href="#">Announcement</a></li>
+<div id="drop">
+<li><a id="dropbtn" href="#">Service</a>
+   <ul class="dropdown">
+      <li class="drop_block"><a class="dropdown_content" href="#">Price</a></li>
+      <li class="drop_block"><a class="dropdown_content" href="#">Time/place</a></li>
+   </ul>
+</li>
+</div>
+<li><a class="Nav_link" href="#">Links</a></li>
+<li><a class="Nav_link" href="#">Contact</a></li>
+</ul>
+</div>
+<!-- TemplateBeginEditable name="content" -->
+<div id="Sec_body">
+  <hr style="border:groove">
+  <div>join us(use two div and orientation is horizon)</div>
+  <div> this is a gallary</div>
+  <div>content(stand by)</div>
+</div>
+<!-- TemplateEndEditable -->
+<hr>
+<p id="footer">Howie4pp © 2016</p>
+
+</body>
+</html>

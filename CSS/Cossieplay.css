@@ -1,0 +1,93 @@
+@charset "UTF-8";
+ul {  /* all ul style*/
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   overflow:hidden;   
+}
+ li{	 
+    float:left;
+	 }
+#Logo{ /* set font:play attribute and animation*/
+	position:absolute;
+	top:-20px;
+	left:215px;
+    color: yellow;
+	font-size:65px;
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+}	
+#logoofcossie{  /* img position */
+	height: 90px;
+	position: relative;
+	top: -7px;
+	
+}
+
+@-webkit-keyframes mymove{
+	50% {color:blue;}
+	}
+@keyframes mymove {
+    50% {color:blue;}
+}
+.Nav_link, #dropbtn{ /*set navigation bar basic attributes*/
+display:block;
+color:#ED5713;
+text-align:center;
+padding:8px 25px;
+text-decoration:none;
+font-weight:bold;
+text-transform:uppercase;
+}
+.Nav_link:hover, #drop:hover #dropbtn{ /* this is make drop btn keep the color*/
+       color:#1939F4;	   
+	}
+.drop_block{	 /* this set dropblock attribute*/
+	float:none;
+	background-color:#F1F1F1;
+	height:30px;
+	padding-top:12px;
+	text-align:center;
+	}
+.drop_block:hover{  /* set color when mouse hover*/
+	
+	}		
+.dropdown{  /* set dropdown block position*/
+	font-weight:bold;
+	position:absolute;
+	display:none;
+	width:120px;	
+	text-transform:uppercase;
+	}	
+.dropdown_content{ /* basic attributes*/
+    text-decoration:none;
+	color:#FB490F;
+	}
+.dropdown_content:hover{
+	color:#1939F4}
+#Nav_bar{
+	float:right;
+	margin-right:-25px;
+    width:70%;
+}
+#Nav_bar li:hover ul{  /* important step for display second navigation bar*/
+    display:block;  
+}  
+#Logo_div {	
+	height:50px;
+}
+#search_bar {
+	position: absolute;
+	left:910px;
+	top:25px;
+}
+#Sec_body {
+ clear:both;
+}
+#footer {
+	color:#A1999A;
+	position:relative;
+	left:35px;
+	top:-10px;
+}
+
