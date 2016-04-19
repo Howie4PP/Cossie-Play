@@ -10,7 +10,7 @@ ul {  /* all ul style*/
 	 }
 #Logo{ /* set font:play attribute and animation*/
 	position:absolute;
-	top:-20px;
+	top:-15px;
 	left:215px;
     color: yellow;
 	font-size:65px;
@@ -18,9 +18,9 @@ ul {  /* all ul style*/
     animation: mymove 5s infinite;
 }	
 #logoofcossie{  /* img position */
-	height: 90px;
+	height: 95px;
 	position: relative;
-	top: -7px;
+	top: -13px;
 	
 }
 
@@ -34,7 +34,7 @@ ul {  /* all ul style*/
 display:block;
 color:#ED5713;
 text-align:center;
-padding:8px 25px;
+padding:8px 18px;
 text-decoration:none;
 font-weight:bold;
 text-transform:uppercase;
@@ -65,6 +65,14 @@ text-transform:uppercase;
 	}
 .dropdown_content:hover{
 	color:#1939F4}
+.social_media{
+	text-align:center;	
+	float:right;
+	margin-right:10px}
+.social_media span{
+	  position:relative;
+	  top:-5px;
+	}
 #Nav_bar{
 	float:right;
 	margin-right:-25px;
@@ -78,9 +86,47 @@ text-transform:uppercase;
 }
 #search_bar {
 	position: absolute;
-	left:910px;
-	top:25px;
+	left:730px;
+	top:20px;
 }
+#advertisement{
+    width:100px;
+	height:100px;
+	position:absolute;
+	animation-name:movepicture;
+	animation-duration:15s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-play-state:running;
+	-webkit-animation-name:movepicture;
+	-webkit-animation-duration:15s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+	}
+	#advertisement:hover {
+		animation-play-state:paused;
+		-webkit-animation-play-state:paused;
+		}
+	
+	@keyframes movepicture {
+		0%   {left:20px; top:150px;}
+        50%  {left:20px; top:200px;}
+        100% {left:20px; top:150px;}
+      }
+    @-webkit-keyframes movepicture{
+		0%   {left:20px; top:150px;}
+        50%  {left:20px; top:200px;}
+        100% {left:20px; top:150px;}
+		 }
+ #move_adver{
+	  border-radius: 20px;
+	  width:100px;
+	 }
 #Sec_body {
  clear:both;
 }
