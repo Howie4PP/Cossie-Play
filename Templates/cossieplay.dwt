@@ -13,7 +13,7 @@
 <body>
 
 <div id="Logo_div">
- <a href="#"><img id="logoofcossie" alt="Cossie" src="../Image/logo of cossie.png"></a>
+ <a href="../index.html"><img id="logoofcossie" alt="Cossie" src="../Image/logo of cossie.png"></a>
    <h1 id="Logo"><em>play</em></h1>
    <div class="social_media">
      <span>Visit us :</span>
@@ -28,7 +28,7 @@
 </div>
 <div>
 <ul id="Nav_bar">
-<li><a class="Nav_link" href="#">Home</a></li>
+<li><a class="Nav_link" href="../index.html">Home</a></li>
 <li><a class="Nav_link" href="../whatiscos.html">About Cosplay</a></li>
 <li><a class="Nav_link" href="../discount.html">Discount</a></li>
 <div id="drop">
@@ -43,18 +43,19 @@
 <li><a class="Nav_link" href="../contact.html">Contact</a></li>
 </ul>
 </div>
-<div id="advertisement"><a href="../time_place.html"><img id="move_adver" alt="Join in Our party" src="../Image/AD.png"></a></div>
+
 <!-- TemplateBeginEditable name="content" -->
 <div id="Sec_body">
-  <hr style="border:groove">
+  <hr style="border:groove;">
   <div>join us(use two div and orientation is horizon) </div>
   <div> this is a gallary</div>
-  <div>content(stand by)</div>
+  
 </div>
 <!-- TemplateEndEditable -->
+
+  
+<div id="footer">
 <hr>
-
-
+<p>Howie4pp © 2016</p></div>
 </body>
-<footer><p id="footer">Howie4pp © 2016</p></footer>
 </html>

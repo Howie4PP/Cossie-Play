@@ -45,19 +45,44 @@
 </div>
 
 <!-- InstanceBeginEditable name="content" -->
-<div id="Sec_body"  align="center">
-  <hr style="border:groove">
-  
-  <div style="width:80%" >
-      <h2> Connect us: </h2>
-      <hr>
-      <p><strong>Our Phone</strong> is 07 4771 1234</p>
-      <p><strong>Fax</strong>: 07-4771 1235</p>
-      <p><strong>Address</strong>: 4 Stanton Avenue, Hulkstwon</p>
-      <p><strong>Email</strong>:Cossieplay@ gmail.com.</p>
+<div id="Sec_body" align="center">
+  <hr style="border:groove;">
+  <div style="width:80%;">
+    <h2>Sign Up</h2>
+     <hr>
+     <form style="margin:auto; padding:20px;" action="#" method="get" onSubmit="return validateForm()">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: <input type="text" name="account" id="account"><br>
+<br>
+Phone number: <input type="number" name="phone" id="phone"><br>
+<br>
+People number: <input type="number" name="people" id="people"><br>
+           <br>
+           <input type="submit" value="send" >&nbsp; &nbsp; 
+           <input type="reset" value="reset" >
+</form>
+     
+  </div>
 </div>
 
-</div>
+<script type="text/javascript">
+function validateForm(){
+var x= document.getElementById("account").value;
+var y= document.getElementById("phone").value;
+var z= document.getElementById("people").value;
+
+if (x==null || x=="" || y==null || y=="" || z==null || z=="")
+  {
+  alert("Please fill the form");
+  return false;
+  }else{
+	   alert("Send successfully, we will reply you soon!");
+	   window.location.href='index.html' 
+	   return false; 
+	  }
+  
+   }
+
+</script>
 <!-- InstanceEndEditable -->
 
   
